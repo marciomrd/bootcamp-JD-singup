@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Sign Up DevConnect</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>DevConnect</h1>
+    </header>
+
+    <main class="container">
+        <section class="form-container">
+            <h2>Cadastro</h2>
+
+            <form action="#" method="post">
+                <div class="field">
+                    <label for="iname">Nome</label>
+                    <input type="text" name="name" id="iname" placeholder="Nome completo" required>
+                </div>
+
+                <div class="field">
+                    <label for="iemail">E-mail</label>
+                    <input type="email" name="email" id="iemail" placeholder="E-mail" maxlength="30"
+                        autocomplete="email" required>
+                </div>
+
+                <div class="field">
+                    <label for="ipassword">Senha</label>
+                    <input type="password" name="password" id="ipassword" placeholder="Senha" minlength="6"
+                        maxlength="20" required>
+                </div>
+
+                <div class="field">
+                    <label for="ipassword-conf">Confirmar Senha</label>
+                    <input type="password" name="password-conf" id="ipassword-conf" placeholder="Confirmar senha"
+                        minlength="6" maxlength="20" required>
+                </div>
+
+                <button type="submit" class="button">Cadastrar</button>
+            </form>
+
+            <div class="login">
+                <p> Já tem uma conta? <a href="#" target="_self">Faça Login</a></p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido por <a href="https://github.com/marciomrd" target="_blank" rel="follow">Marcio Miranda</a></p>
+    </footer>
+</body>
+
+</html>

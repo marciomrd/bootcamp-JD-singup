@@ -1,0 +1,11 @@
+Projeto Cadastro - DevConnect
+
+Objetivo: fazer uma página de cadastro responsiva.
+
+Requisitos:
+
+Campos de Entrada: Nome; Email; Senha; Confirmação de Senha.
+Botões: um botão de enviar dados e concluir o cadastro.
+Interface: intuitiva, que represente uma startup.
+
+Obs.: disponibilizar no Github.
