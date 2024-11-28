@@ -94,9 +94,8 @@ input:-webkit-autofill:hover,
 input:-webkit-autofill:focus, 
 input:-webkit-autofill:active {
 
-  transition: background-color 1000000s;
-  -webkit-text-fill-color: white !important;
-  
+    transition: background-color 1000000s;
+    -webkit-text-fill-color: white !important;
 }
 
 div.field input::placeholder {
