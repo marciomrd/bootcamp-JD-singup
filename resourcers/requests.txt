@@ -1,4 +1,4 @@
-Projeto Cadastro - DevConnect
+Projeto Cadastro - DevConnect - Atualizado
 
 Objetivo: fazer uma página de cadastro responsiva.
 
