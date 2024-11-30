@@ -94,7 +94,7 @@ input:-webkit-autofill:hover,
 input:-webkit-autofill:focus, 
 input:-webkit-autofill:active {
 
-    transition: background-color 1000000s;
+    transition: background-color 100000000s;
     -webkit-text-fill-color: white !important;
 }
 
@@ -110,6 +110,8 @@ div.field input:focus {
 div.error {
     color: red;
     font-size: 12px;
+
+    text-align: center;
 }
 
 form .button {
